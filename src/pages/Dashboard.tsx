@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Controls from "../components/Controls";
 import Table from "../components/Table.tsx";
 import Chart from "../components/Chart";
@@ -162,7 +162,6 @@ export default function Dashboard() {
         />
 
         <Table
-          data={data}
           loading={loading}
           error={error}
           filtered={filtered}

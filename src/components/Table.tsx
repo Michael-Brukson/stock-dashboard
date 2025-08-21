@@ -1,8 +1,6 @@
-import React from "react";
 import Row from "./Row";
 
 interface Props {
-  data: any[];
   loading: boolean;
   error: string | null;
   filtered: any[];
@@ -14,7 +12,7 @@ interface Props {
   setSortDir: (d: "asc" | "desc") => void;
 }
 
-export default function Table({ data, loading, error, filtered, selected, setSelected, sortBy, sortDir, setSortBy, setSortDir }: Props) {
+export default function Table({ loading, error, filtered, selected, setSelected, sortBy, sortDir, setSortBy, setSortDir }: Props) {
   const header = (key: string, label: string) => (
     <th
       key={String(key)}

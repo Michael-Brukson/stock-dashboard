@@ -1,4 +1,3 @@
-import React from "react";
 import { classNames, pctColor } from "../util/helpers";
 
 interface Props {
