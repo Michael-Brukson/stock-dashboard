@@ -29,15 +29,17 @@ npm install
 npm start
 ```
 
-# OR:
+### Or:
 
-Visit the deployed page:
+1. Visit the deployed page:
 
 https://michael-brukson.github.io/stock-dashboard/
 
-and plug in the following free API Key:
+2. plug in the following free API Key:
 
+'''bash
 d2jlge1r01qj8a5k1gh0d2jlge1r01qj8a5k1ghg
+'''
 
 Or get your own at:
 
