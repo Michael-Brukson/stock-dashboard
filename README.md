@@ -37,9 +37,9 @@ https://michael-brukson.github.io/stock-dashboard/
 
 2. plug in the following free API Key:
 
-'''bash
+```bash
 d2jlge1r01qj8a5k1gh0d2jlge1r01qj8a5k1ghg
-'''
+```
 
 Or get your own at:
 
